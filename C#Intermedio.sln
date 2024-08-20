@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practica SRP", "Practica SR
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practica OCP", "Practica OCP\Practica OCP.csproj", "{21ED7EF4-9015-4018-8775-B79F1A44C980}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practica ISP", "Practica ISP\Practica ISP.csproj", "{940249EA-C214-49C2-A9AE-32B0B38B0468}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practica ISP", "Practica ISP\Practica ISP.csproj", "{940249EA-C214-49C2-A9AE-32B0B38B0468}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Refactoring", "Refactoring\Refactoring.csproj", "{57997343-83D9-4877-9D84-BD4F8E84561C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practica LSP", "Practica LSP\Practica LSP.csproj", "{2A3F5815-220F-4C7B-9E03-2C453739514E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{940249EA-C214-49C2-A9AE-32B0B38B0468}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{940249EA-C214-49C2-A9AE-32B0B38B0468}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{940249EA-C214-49C2-A9AE-32B0B38B0468}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57997343-83D9-4877-9D84-BD4F8E84561C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57997343-83D9-4877-9D84-BD4F8E84561C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57997343-83D9-4877-9D84-BD4F8E84561C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57997343-83D9-4877-9D84-BD4F8E84561C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A3F5815-220F-4C7B-9E03-2C453739514E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A3F5815-220F-4C7B-9E03-2C453739514E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A3F5815-220F-4C7B-9E03-2C453739514E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A3F5815-220F-4C7B-9E03-2C453739514E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
