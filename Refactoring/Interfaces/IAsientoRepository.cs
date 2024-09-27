@@ -1,13 +1,14 @@
-﻿using Refactoring.Entities;
+﻿using System.Collections.Generic;
 
-namespace Refactoring.Interfaces
+namespace School.Data.Interfaces
 {
-    public interface IAsientoRepository<T> where T : class
+    public interface IRepository<T> where T : class
     {
-        void Agregar(T asiento);
-        void Actualizar(T asiento);
-        void Remover(T asiento);
+        void Agregar(T entidad);
+        void Actualizar(T entidad);
+        void Remover(T entidad);
+        T ObtenerPorId(int id);
         List<T> TraerTodos();
-        T ObtenerPorId(int asientoId);
     }
 }
+

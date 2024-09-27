@@ -1,35 +1,9 @@
-﻿using Refactoring.Entities;
-using Refactoring.Interfaces;
+﻿using School.Data.Entities;
+using School.Data.Interfaces;
 
-namespace Refactoring.Repository
+namespace School.Data.Repository
 {
-    public class AsientoRepository<T> : IAsientoRepository<T> where T : class
+    public class AsientoRepository : Repository<Asiento>, IAsientoRepository
     {
-        protected List<T> _entities;
-
-        public AsientoRepository()
-        {
-            _entities = new List<T>();
-        }
-
-        public void Agregar(T asiento) 
-        {
-            _entities.Add(asiento);
-        }
-        public void Actualizar(T asiento) 
-        { 
-            
-        }
-        public void Remover(T asiento) 
-        {
-            _entities.Remove(asiento);
-        }
-        public T ObtenerPorId(int asientoId)
-        {
-            return null;
-        }
-        public virtual List<T> TraerTodos()
-        {
-            return _entities;
     }
 }

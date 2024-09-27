@@ -1,4 +1,6 @@
-﻿namespace Refactoring.Entities
+﻿using System;
+
+namespace School.Data.Entities
 {
     public class Asiento
     {
@@ -6,6 +8,6 @@
         public int BusId { get; set; }
         public int NumeroPiso { get; set; }
         public int NumeroAsiento { get; set; }
-        public DateTime FechaCreacion { get; set; } 
+        public DateTime FechaCreacion { get; set; }
     }
 }
